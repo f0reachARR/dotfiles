@@ -156,8 +156,10 @@ bar {
 }
 
 exec --no-startup-id fcitx-autostart
-exec --no-startup-id "feh --bg-fill $HOME/.wallpaper.png"
+exec --no-startup-id "~/.fehbg"
 exec --no-startup-id compton -b 
 exec --no-startup-id dunst
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
+exec --no-startup-id "xss-lock i3lock -n -i ~/.wallpaper.png"
+exec --no-startup-id flameshot
